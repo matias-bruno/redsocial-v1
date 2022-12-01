@@ -1,0 +1,42 @@
+.main-amigos {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.info-amigo {
+	display: inline-block;
+	padding: 15px;
+	text-align: center;
+	background-color: #fff;
+}
+
+@media (min-width: 300px) {
+    .main-amigos {
+        justify-content: flex-start;
+    }
+    .info-amigo {
+      width: 50%;
+    }
+}
+
+@media (min-width: 500px) {
+    .info-amigo {
+        width: 33.3333%;
+    }
+}
+
+@media (min-width: 700px) {
+    .cinfo.info-amigo {
+        width: 25%;
+    }
+}
+
+@media (min-width: 900px) {
+    .info-amigo {
+        width: 20%;
+    }
+}

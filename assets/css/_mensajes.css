@@ -1,0 +1,35 @@
+#mensajes {
+    max-width: 600px;
+    height: 400px;
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.mensaje1 {
+    text-align: right;
+}
+.mensaje2 {
+    text-align: left;
+}
+.contenido {
+    display: inline-block;
+    overflow-wrap: break-word;
+    max-width: 400px;
+}
+.contenido p {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.usuarios-mensajes {
+    max-width: 600px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 10px;
+}
+.enviar-mensaje {
+    max-width: 600px;
+    margin: 10px auto;
+}

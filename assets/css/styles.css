@@ -1,0 +1,260 @@
+@import '_publicaciones.css';
+@import '_formularios.css';
+@import '_mensajes.css';
+@import '_friends.css';
+
+
+body {
+	background-color: #edebe9;
+	height: 400px;;
+}
+
+.btn-portada {
+	position: absolute;
+	padding: 5px;
+	border-radius: 7px;
+	z-index: 2;
+	background: #C5C5C5;
+	border: 1px solid #7B8586;
+}
+#cambiar-portada {
+	right: 60px;
+	bottom: 10px;
+	display: none;
+}
+#quitar-portada {
+	right: 20px;
+	bottom: 10px;
+	display: none;
+}
+.card-body {
+	margin: 0 auto;
+}
+.cambiar-foto {
+	background-color: #fff;
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+.container-info {
+	background-color: #fff;
+	max-width: 600px;
+	margin: 0 auto;
+	min-height: 75vh;
+	padding: 30px;
+}
+#foto-portada {
+	min-height: 300px;
+	position: relative;
+}
+.friend-info {
+	width: 200px;
+	border: 2px solid #a1b1b4;
+}
+.img-container {
+	text-align: center;
+}
+.img-publicacion {
+	max-width: 100%;
+	max-height: 500px;
+}
+.link-profile {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.link-profile:hover {
+	color: #948be2;
+	text-decoration: none;
+}
+#main-nav {
+	background-color: #341f97;
+	margin: 20px 0;
+}
+#portada {
+   position: relative;
+   height: 300px;
+   background-color: #2f4f4f;
+   overflow: hidden;
+}
+.profile-page {
+	/* position: relative; */
+	margin-bottom: 30px;
+}
+
+#user-info {
+	border: 2px solid #a1b1b4;
+	max-width: 400px;
+	margin: 0 auto 20px auto;
+	border-radius: 10px;
+}
+#user-img {
+	margin: 20px auto;
+    width: 200px;
+}
+#user-info-perfil {
+	display: inline-block;
+	position: absolute;
+	top: 110px;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+}
+.user-img-perfil {
+	width: 150px;
+}
+.user-img-mini {
+	height: 30px;
+}
+.user-img-mid {
+	height: 80px;
+}
+#user-nav {
+	margin-bottom: 20px;
+}
+#user-nombre-perfil {
+	display: inline-block;
+	background-color: #C5C5C5;
+	padding: 0px 10px;
+	border-radius:  7px;
+}
+
+ .cambiar-foto .card-header {
+	color: #fff;
+	background-color: #341f97;
+ }
+ .menu-post {
+	background-color: #341f97;
+ }
+
+/* .info-amigo {
+    width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 2px #a1b1b4 solid;
+	padding: 15px;
+	border-radius: 7px;
+	text-align: center;
+	margin: 10px auto;
+	background-color: #fff;
+} */
+.cover-album {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+.imagen-mini {
+	position: relative;
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	border: 2px solid #341f97;
+}
+.nombre-album {
+	font-size: 22px;
+	color: #000;
+}
+
+.user-friend-img {
+	width: 100px;
+}
+
+.contenedor-fotos, .contenedor-amigos {
+	background-color: #fff;
+	min-height: 400px;
+	padding: 10px;
+	display: block;
+}
+.barra-fotos, .barra-amigos {
+	background-color: #edebe9;
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+/* .main-amigos, */
+.main-fotos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* .link-profile:hover {
+	font-weight: bold;
+	text-decoration-line: underline;
+} */
+.view-post {
+	text-decoration: none;
+	color: #000;
+}
+.view-post:hover {
+	text-decoration: none;
+	color: #000;
+}
+.time_stamp {
+	font-size: 14px;
+}
+.descripcion {
+	font-size: 14px;
+	color: #948be2;
+}
+.notificacion {
+	font-size: 10px;
+	padding: 0 3px;
+	position: relative;
+	top: -5px;
+	color: #fff;
+	background-color: #f00;
+	border-radius: 3px;
+}
+.card-amigo {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #a1b1b4;
+	padding: 10px;
+	border-radius: 5px;
+	min-width: 300px;
+}
+.image-card-amigo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.info-card-amigo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 10;
+}
+.user-link {
+	text-decoration: none;
+}
+.user-link:hover {
+	text-decoration: none;
+}
+.opcion_solicitud {
+	display: flex;
+}
+.message-card-amigo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 10;
+	margin-left: 50px;
+}
+.sin-solicitudes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #edebe9;
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #a1b1b4;
+	border-radius: 5px;
+	min-width: 300px;
+}
